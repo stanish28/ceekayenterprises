@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: rgba(128,128,192);
+    height: 160px;
+    width: 100%;
+}
+
+#logo{
+    padding: 20px 30px 0px ;
+    float: left;
+}
+.space{
+    padding: 10px;
+}
+#brand{
+    padding-top: 100px;
+    margin-top: 100px;
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+#list{
+    clear: both;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+ul li a{
+    color: black;               
+    font-size: 1.3em;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 5px 10px 0px;
+    margin-bottom: 5px;
+    text-decoration: none;   
+}
+
+ul li a:hover{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+   
+    border-style: groove;
+}
+
+#image{
+    background: url("shopI.png") no-repeat;
+    width:100%;
+    height: 500px;
+}
+.images{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 128,255,0.5);
+    padding-top: 60px;
+}
+
+.images #shop{
+    height: 250px;
+    width:300px;
+    margin: 0 5% 3%;
+    background: url("shopI.png") no-repeat;
+    float: left;
+    border: 3px solid black;
+    position: relative;
+}
+
+.images #godown{
+    height: 250px;
+    width:300px;
+    margin: 0 5% 3%;
+    background: url("godown.png") no-repeat;
+    float: left;
+    border: 3px solid black;
+    position: relative;
+}
+
+.images #owner{
+    height: 250px;
+    width:300px;
+    margin: 0 5% 3%;
+    background: url("owne.png") no-repeat;
+    float: left;
+    border: 3px solid black;
+    position: relative;
+}
+
+.images #shop span,.images #godown span,.images #owner span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 800;
+    background-color: rgba(128,128,192,0.8);  
+}
+
+.images #owner span{
+    font-size: 1.3em;
+}
+
+body .images #shop-tile a{
+    width: 1000px;
+    height: 1000px;
+    background-color: blue;
+}
+
+p{
+    font-family: "Barlow", Sans-serif;
+    margin: 50px 30%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1208px){
+.images #shop,.images #godown,.images #owner{
+    margin: 0 5% 3%;  
+}
+}
+
+@media(min-width:1044px) and (max-width: 1207px){
+.images #shop,.images #godown,.images #owner{
+    margin: 0 2% 3% 2%;
+}
+}
+
+@media(min-width:977px) and (max-width: 1043px){
+.images #shop,.images #godown,.images #owner{
+    margin: 0 1% 3% ;
+}
+}
+
+
+@media(min-width:953px) and (max-width: 976px){
+    .images #shop,.images #godown,.images #owner{
+        margin: 0 0.6% 3% ;
+    }
+}
+
+@media(max-width: 952px){
+    .images #shop,.images #godown{
+            margin: 0 8.5% 3% ;
+    }
+    .images #owner{
+       margin-left: 35%;
+    }
+}
+
+
