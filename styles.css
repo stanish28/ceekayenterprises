@@ -148,7 +148,7 @@ p{
     width:350px;
     background-color: rgb(216,191,216);
     float: left;
-    margin-left: 10px;
+    margin-left: 70px;
 }
 .lower .map{
     padding:30px 15px 0px;
@@ -163,6 +163,49 @@ p{
     text-align: center;
 }
 
+#check #contact {
+    padding-top: 30px;
+    padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#c1{
+    font-size: 1.7em;
+    padding: 10px 0;
+    text-decoration: underline;
+}
+#c2,#c3{
+    font-size: 1.4em;
+    padding:10px 0;
+}
+
+#c2 a,#c3 a{
+    text-decoration: none;
+    color: rgb(0,0,0,0.8)
+}
+
+#check #address{
+    padding:35px 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#a1{
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+
+#address #a2{
+    font-size: 1.3em;
+}
+
+.extra{
+    height:30px;
+    width:100%;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+
+}
 
 
 
